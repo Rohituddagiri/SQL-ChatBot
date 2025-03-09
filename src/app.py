@@ -1,6 +1,7 @@
 from dotenv import load_dotenv
 from langchain_community.utilities import SQLDatabase
 from langchain_core.messages import AIMessage, HumanMessage
+from langchain_openai import ChatOpenAI
 import streamlit as st
 from chains.fullChain import get_response
 from langsmith import utils
