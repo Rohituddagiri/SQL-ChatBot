@@ -32,14 +32,13 @@ pip install -r requirements.txt
 
 ```ini
 OPENAI_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
-GROQ_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 LANGCHAIN_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 LANGCHAIN_TRACING_V2 = true
 ```
 
 ```bash
 # Finally run the following command
-python app.py
+streamlit run app.py
 ```
 
 Now,
@@ -52,7 +51,9 @@ open up localhost:
 
 - Python
 - LangChain
+- LangSmith
 - Streamlit
 - OpenAI GPT 3.5
+- Mistral
 - MySQL
 
