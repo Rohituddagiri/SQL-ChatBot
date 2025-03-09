@@ -1,6 +1,6 @@
 # Chat_MySQL_AI_Agent
 
-![image info](Screenshot 2025-03-08 at 11.55.19 PM.png)
+![image info](chat-mysql.png)
 
 
 # How to run?
