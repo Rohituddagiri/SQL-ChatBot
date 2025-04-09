@@ -1,4 +1,4 @@
-# Chat_MySQL_AI_Agent
+# SQLChatBot
 
 ![image info](chat-mysql.png)
 
@@ -32,8 +32,10 @@ pip install -r requirements.txt
 
 ```ini
 OPENAI_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
-LANGCHAIN_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 LANGCHAIN_TRACING_V2 = true
+LANGSMITH_ENDPOINT="xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+LANGSMITH_API_KEY="xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+LANGSMITH_PROJECT="xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 ```
 
 ```bash
@@ -54,6 +56,5 @@ open up localhost:
 - LangSmith
 - Streamlit
 - OpenAI GPT 3.5
-- Mistral
 - MySQL
 
