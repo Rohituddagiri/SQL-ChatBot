@@ -1,12 +1,19 @@
-# SQLChatBot
+# SQLChatBot using LangChain Vs ReAct Agent
 
 ![image info](chat-mysql.png)
+
+
+
+https://github.com/user-attachments/assets/c1b85488-785c-440a-be77-b72872275ee8
 
 
 # How to run?
 ### STEPS:
 
 Clone the repository
+
+![langsmith_interpretor](https://github.com/user-attachments/assets/f9f7eb37-7cfc-4197-814c-0a0da1855469)
+
 
 ```bash
 Project repo: https://github.com/Rohituddagiri/SQLChatBot.git
