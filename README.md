@@ -9,7 +9,7 @@
 Clone the repository
 
 ```bash
-Project repo: https://github.com/Rohituddagiri/Chat_MySQL_AI_Agent.git
+Project repo: [https://github.com/Rohituddagiri/Chat_MySQL_AI_Agent.git](https://github.com/Rohituddagiri/SQLChatBot.git)
 ```
 
 ### STEP 01- Create a conda environment after opening the repository
