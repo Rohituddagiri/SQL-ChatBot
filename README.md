@@ -1,4 +1,4 @@
-# SQLChatBot using Chain Vs ReAct Agent
+# SQLChatBot Implementation using LangChain Chain Vs ReAct Agent 
 
 This project demonstrates an intelligent SQL chatbot capable of interacting with relational databases using natural language. It is built using two different approaches: a standard LangChain `Chain` and the more dynamic `ReAct` Agent framework. The bot processes user queries, performs reasoning through intermediate steps, generates SQL statements, and returns accurate answers from the database. This comparison showcases how both approaches reason and respond to user queries in real-time.
 
@@ -53,15 +53,45 @@ In this project, both approaches are implemented to showcase how they handle SQL
 https://github.com/user-attachments/assets/6e6a772c-49d4-49c2-82cd-bb2b45cde58d
 
 
+## 🧠 Chain of Thought Prompting (CoT)
+
+This project also implements **Chain of Thought (CoT)** prompting — a reasoning approach where the model generates intermediate reasoning steps before producing the final answer. This improves accuracy, especially for complex SQL questions that require multi-step logic.
+
+![image](https://github.com/user-attachments/assets/31c00743-fc83-4cae-9a09-99c14a6a43c2)
+
+
+**Diagram Explanation:**
+- The second model from the left in the image shows how **CoT** works.
+- Instead of directly jumping from input to output, the model walks through intermediate **thoughts** or steps.
+- This makes the model's decision process more interpretable and reliable.
+
+> 💡 CoT is the foundation for more advanced reasoning strategies like **Self-Consistency** and **Tree of Thoughts (ToT)**, also shown in the diagram.
+
+In this ReAct Chatbot, you can visually see these reasoning steps when using the ReAct Agent. Each intermediate SQL generation and tool usage is recorded and displayed before the final output.
+
+
+## 🧪 LangSmith Integration for Traceability & Debugging
+
+To improve transparency and debugging, this project leverages **LangSmith** to trace and visualize each step in the agent's reasoning and tool execution flow.
+
+![langsmith_interpretor](https://github.com/user-attachments/assets/f9f7eb37-7cfc-4197-814c-0a0da1855469)
+
+### ✅ What does this show?
+
+- Each user query (e.g., _“how many artists in the database?”_) is tracked step-by-step.
+- You can see **intermediate steps**, such as tool invocations (`sql_db_list_tables`, `sql_db_schema`), prompt formatting, LLM calls (OpenAI), and the resulting parsed outputs.
+- The **waterfall view** helps debug slow chains or incorrect tool usage by showing exact timing and sequence of operations.
+- LangSmith's UI gives visibility into what tools the agent decided to use and why, using ReAct logic for stepwise decision making.
+
+> 💡 LangSmith acts like a microscope for your LLM apps — letting you fine-tune, evaluate, and productionize agents confidently.
+
+This visibility is especially powerful when combined with **ReAct agents**, allowing you to inspect the thought process of the agent as it reasons and interacts with the SQL database.
 
 
 # How to run?
 ### STEPS:
 
 Clone the repository
-
-![langsmith_interpretor](https://github.com/user-attachments/assets/f9f7eb37-7cfc-4197-814c-0a0da1855469)
-
 
 ```bash
 Project repo: https://github.com/Rohituddagiri/SQLChatBot.git
@@ -112,4 +142,9 @@ open up localhost:
 - Streamlit
 - OpenAI GPT 3.5
 - MySQL
+
+### References:
+- https://alejandro-ao.com/chat-with-mysql-using-python-and-langchain/
+- https://abvijaykumar.medium.com/prompt-engineering-chain-of-thought-and-react-sql-agent-85fa42575c06
+- https://www.promptingguide.ai/techniques/tot
 
