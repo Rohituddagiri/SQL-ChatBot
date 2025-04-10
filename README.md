@@ -1,10 +1,21 @@
 # SQLChatBot using LangChain Vs ReAct Agent
 
-![image info](chat-mysql.png)
 
 
 
-https://github.com/user-attachments/assets/c1b85488-785c-440a-be77-b72872275ee8
+<div style="display: flex; justify-content: space-between; gap: 10px;">
+  <div style="flex: 1; text-align: center;">
+    <h3>Using LangChain</h3>
+    <img src=chat-mysql.png alt="LangChain" style="width: 100%; border-radius: 10px;">
+  </div>
+  <div style="flex: 1; text-align: center;">
+    <h3>Using ReAct Agent</h3>
+    <img src="https://github.com/user-attachments/assets/c1b85488-785c-440a-be77-b72872275ee8" alt="ReAct Agent" style="width: 100%; border-radius: 10px;">
+  </div>
+</div>
+
+
+
 
 
 # How to run?
