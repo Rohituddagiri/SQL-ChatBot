@@ -1,19 +1,14 @@
-# SQLChatBot using LangChain Vs ReAct Agent
+# SQLChatBot using Chain Vs ReAct Agent
+
+This project demonstrates an intelligent SQL chatbot capable of interacting with relational databases using natural language. It is built using two different approaches: a standard LangChain `Chain` and the more dynamic `ReAct` Agent framework. The bot processes user queries, performs reasoning through intermediate steps, generates SQL statements, and returns accurate answers from the database. This comparison showcases how both approaches reason and respond to user queries in real-time.
 
 
+### Using Chain  
+![Langchain](chat-mysql.png)
 
 
-<div style="display: flex; justify-content: space-between; gap: 10px;">
-  <div style="flex: 1; text-align: center;">
-    <h3>Using LangChain</h3>
-    <img src=chat-mysql.png alt="LangChain" style="width: 100%; border-radius: 10px;">
-  </div>
-  <div style="flex: 1; text-align: center;">
-    <h3>Using ReAct Agent</h3>
-    <img src ="https://github.com/user-attachments/assets/40a8d11d-21b1-4f73-9dbd-26cbb42b269a" alt="ReAct Agent" style="width: 100%; border-radius: 10px;">
-  </div>
-</div>
-
+### Using Agent
+![ReAct Agent](https://github.com/user-attachments/assets/6e6a772c-49d4-49c2-82cd-bb2b45cde58d)
 
 
 
