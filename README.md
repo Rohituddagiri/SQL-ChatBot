@@ -1,4 +1,4 @@
-# SQLChatBot Implementation using LangChain Chain Vs ReAct Agent 
+# SQL-ChatBot Implementation using LangChain Chain Vs ReAct Agent 
 
 This project demonstrates an intelligent SQL chatbot capable of interacting with relational databases using natural language. It is built using two different approaches: a standard LangChain `Chain` and the more dynamic `ReAct` Agent framework. The bot processes user queries, performs reasoning through intermediate steps, generates SQL statements, and returns accurate answers from the database. This comparison showcases how both approaches reason and respond to user queries in real-time.
 
