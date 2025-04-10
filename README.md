@@ -8,7 +8,7 @@ This project demonstrates an intelligent SQL chatbot capable of interacting with
 
 
 ### Using Agent
-![ReAct Agent](https://github.com/user-attachments/assets/6e6a772c-49d4-49c2-82cd-bb2b45cde58d)
+https://github.com/user-attachments/assets/6e6a772c-49d4-49c2-82cd-bb2b45cde58d
 
 
 
