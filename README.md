@@ -10,7 +10,7 @@
   </div>
   <div style="flex: 1; text-align: center;">
     <h3>Using ReAct Agent</h3>
-    <img src="https://github.com/user-attachments/assets/c1b85488-785c-440a-be77-b72872275ee8" alt="ReAct Agent" style="width: 100%; border-radius: 10px;">
+    <img src =https://github.com/user-attachments/assets/40a8d11d-21b1-4f73-9dbd-26cbb42b269a alt="ReAct Agent" style="width: 100%; border-radius: 10px;">
   </div>
 </div>
 
