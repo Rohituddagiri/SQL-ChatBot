@@ -7,6 +7,11 @@ This project demonstrates an intelligent SQL chatbot capable of interacting with
 ### 🧱 Chain
 A **Chain** in LangChain is a sequential flow of logic where each step has a predefined role — for example, take user input → format a prompt → send it to the LLM → return the response. It’s fast and efficient when the task is straightforward and doesn't require decision-making or tool usage. Chains are great for simple question answering where the LLM doesn't need to plan or interact with external tools.
 
+Implemented Chain in this project
+
+![image](https://github.com/user-attachments/assets/c1a4c3f2-1eec-47f8-be2c-0654646ffd49)
+
+
 **Pros:**
 - Simple and lightweight
 - Easier to implement and debug
@@ -20,6 +25,11 @@ A **Chain** in LangChain is a sequential flow of logic where each step has a pre
 
 ### 🤖 ReAct Agent
 A **ReAct Agent** combines **reasoning** and **acting**. It breaks down the task, chooses tools (like SQL execution or schema inspection), and iteratively plans and acts based on observations — just like a human would. This is ideal for complex queries where the chatbot needs to decide **what to do next** at each step.
+
+Implemented Agent in this Project
+
+![image](https://github.com/user-attachments/assets/f44dca3d-c8a3-4775-bf36-6e6ab2726b1f)
+
 
 **Pros:**
 - Excellent for complex queries and tool use
